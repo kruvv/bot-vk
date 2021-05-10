@@ -1,0 +1,24 @@
+{
+  "name": "bot-vk",
+  "version": "1.0.0",
+  "description": "Small bot for app vk.com",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "chat"
+  ],
+  "author": "Viktor Krupkin  kruvv@mail.ru",
+  "license": "ISC",
+  "dependencies": {
+    "botact": "^2.4.2",
+    "dotenv": "^9.0.1",
+    "express": "^4.17.1",
+    "nconf": "^0.11.2",
+    "path": "^0.12.7",
+    "winston": "^3.3.3"
+  }
+}
